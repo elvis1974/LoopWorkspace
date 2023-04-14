@@ -38,7 +38,7 @@ jobs:
           # BEGINNING: apply the lnl_patches to the released code          
           # See: https://www.loopandlearn.org/main-lnl-patches
           # This LoopWorkspace commit: Add xDrip4iOS and GlucoseDirect CGM clients
-          # curl https://github.com/loopnlearn/LoopWorkspace/commit/13c626c04f01c9870c15fa9463201645b4267b25.patch | git apply
+          curl https://github.com/loopnlearn/LoopWorkspace/commit/13c626c04f01c9870c15fa9463201645b4267b25.patch | git apply
 
           # END: lnl_patches now applied to the released code
       
